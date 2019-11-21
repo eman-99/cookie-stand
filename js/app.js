@@ -1,4 +1,4 @@
-
+'use strict'
 var hours = ['6am','7am','8am','9am','10am','11am','12am','1pm','2pm','3pm','4pm','5pm','6pm','7pm'];
  var nameOfShope = [];
  
@@ -7,6 +7,8 @@ var hours = ['6am','7am','8am','9am','10am','11am','12am','1pm','2pm','3pm','4pm
  container.appendChild(articleEl);
  var tableEl = document.createElement('table');
  articleEl.appendChild(tableEl);
+
+ var form = document.getElementById("formOfShops");
 
 
 function shop(
@@ -107,6 +109,31 @@ shop.prototype.footer = function() {
     console.log(this.multi);
 };
 
+function sumbmit(event) {
+    event.preventDefault();
+    console.log(typeof event.target.max.value);
+    var name = event.target.name.value;
+    var max = parseInt(event.target.max.value);
+    var min = parseInt(event.target.min.value);
+    var avg = parseFloat(event.target.avg.value);
+    var nShop = new Shop(name, min, max, avg);
+    console.log(nShop);
+    var rowsCout = tableEl.rows.length;
+    console.log(rowsCout);
+    tableEl.deleteRow(rowsCout - 1);
+
+    nShop.header();
+    footer();
+    form.reset();
+
+    form.addEventListener("submit", sumbmit);
+
+    
+}
+
+
+
+
 
 var Seattle = new shop('seattle', 23, 65, 6.3);
 var tokyo = new shop('tokyo', 3, 24, 1.2);
@@ -124,6 +151,7 @@ dubai.content();
 paris.content();
 lima.content();
 shop.prototype.footer();
+
 
 
 
