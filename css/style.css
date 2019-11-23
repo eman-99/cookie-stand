@@ -1,0 +1,46 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Merienda|Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Yellowtail&display=swap');
+
+html {
+    background: url(https://www.muralswallpaper.co.uk/app/uploads/soft-natural-marble-textures-room-825x535.jpg)  no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header h1 {
+    padding-top: 50;
+    font-size: 80px;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    margin-top: 50px;
+    color: crimson;
+}
+
+header h2 {
+    padding-top: 50;
+    font-size: 50px;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    margin-top: 80px;
+    color: darksalmon;
+}
+
+main nav ul li  {
+    display: inline-block;
+    text-align: center;
+    overflow: auto;
+    font-size: 20px;
+    height: 90px;
+    width: 100px;
+margin: 110px;
+font-family: 'Merienda', cursive;
+color: rgb(218, 129, 99) ;
+}
+a {
+    color: rgb(160, 50, 50);
+}
