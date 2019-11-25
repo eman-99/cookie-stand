@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Yellowtail&display=swap');
 
 html {
-    background: url(https://www.muralswallpaper.co.uk/app/uploads/soft-natural-marble-textures-room-825x535.jpg)  no-repeat center center fixed ;
+    background: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-047.jpg)  no-repeat center center fixed ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,7 +27,7 @@ header h2 {
     font-family: 'Merienda', cursive;
     text-align: center;
     margin-top: 80px;
-    color: darksalmon;
+    color: rgb(153, 56, 56);
 }
 
 main nav ul li  {
@@ -40,7 +40,41 @@ main nav ul li  {
 margin: 110px;
 font-family: 'Merienda', cursive;
 color: rgb(218, 129, 99) ;
+margin-top: 100px;
+
 }
 a {
-    color: rgb(160, 50, 50);
+    color: rgb(90, 39, 39);
+    text-decoration: none;
+    display: inline-block;
+}
+ a:hover{
+    color: rgb(224, 21, 106);
+    cursor: pointer;
+    
+} 
+
+
+
+main section img{
+   width: 200px;
+   height: 200px;
+    border-radius: 8px;
+    display: inline-block;
+margin: 65px; 
+margin-top: 10px;
+
+
+}
+
+footer h3 {
+ text-align: center;
+ font-size: 40px;
+ margin-top: 100px;
+ font-family: ;
+}
+footer div h3 {
+    background-color: rgb(153, 56, 56);
+    font-family: 'Merienda', cursive;
+    padding: 20px;
 }

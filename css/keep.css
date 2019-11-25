@@ -1,0 +1,38 @@
+html {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjIfSisz7yg46Ijn2vMy0owa8U_DNs_yKVMohgqIW7mR5TgylE&s);
+}
+
+body header {
+    text-align: center;
+font-family: 'Merienda', cursive;
+font-size: 50px;
+padding: 40px;
+color: rgb(100, 27,27);
+}
+
+.images img {
+   
+width: 100px;
+height: 100px;
+ border-radius: 8px;
+ margin: 160px; 
+ margin-top: 150px;
+ margin-right: 200pxs;
+ margin-bottom: 250px;
+ 
+ .images {
+    display: inline-block;
+
+}
+}
+main div img{
+    height: 400px;
+    width: 600px;
+
+}
+.family {
+    margin: 400px;
+    margin-top: -150px;
+    border-radius: 100px;
+
+}

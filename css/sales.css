@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Merienda|Oleo+Script&display=swap');
+
+html {
+    background: url(https://rlv.zcache.co.uk/ivory_off_white_solid_color_background_template_tote_bag-rdbbcef81dc544718af8132bae9fdd73b_v9w6h_8byvr_307.jpg?rvtype=content);
+   
+}
+.cookieshope {
+
+border: lightslategray;
+width: 100px;
+margin-top: 30px;
+
+}
+
+table, th, td {
+    border: 5px solid rgb(119, 78, 78);
+  margin-top: 80px;
+margin: 80px;
+margin-left: -190px;
+}
+
+#cookiesShop {
+    width: 200px;
+    height: 190px;
+    border: 5px solid rgb(100, 27,27)
+    
+
+}
+#formOfShops{
+text-align: center;
+margin-top: 60px;
+margin-left: 580px;
+}
+
+header section h1 {
+background-color: rgb(230, 180, 89);
+text-align: center;
+font-family: 'Merienda', cursive;
+font-size: 50px;
+padding: 40px;
+color: rgb(100, 27,27);
+
+}
+
+nav section img {
+    width: 300px;
+    height: 200px;
+     border-radius: 8px;
+     display: inline-block;
+ margin: 65px; 
+ margin-top: 100px;
+     
+
+}
